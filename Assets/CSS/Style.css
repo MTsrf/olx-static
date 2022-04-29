@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002f34;
+    overflow-x: hidden;
+}
+
+
+
+
+.header{
+    background-color: #f7f8f9;
+    box-shadow: 0 0 2px grey;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: block;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 100px;
+    padding: 10px 0;
+}
+
+
+.navbar img{
+    width: 48px;
+}
+.country-select{
+    width: 272px;
+    margin-left: 16px;
+}
+
+.select{
+    padding: 14px;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+
+}
+.select img{
+    margin-right: 10px;
+    width: 20px;
+}
+
+.select i{
+    margin: 0 5px 0 5px;
+    font-size: 20px;
+    padding-right: 6px;
+}
+.country-select .select .ip_search{
+    border: none;
+    font-size: 15px;
+    
+}
+.country-select .select .ip_search:focus-visible{
+    outline: none;
+}
+.search_box{
+    width: 630px;
+    display: flex;
+    margin:  0 16px;
+}
+.searchbox{
+    height: 48px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #002f34;
+    border-right: none;
+    overflow: hidden;
+
+}
+.search_box .searchbox .search_ip{
+    border: none;
+    width: 572px;
+    height: 41px;
+}
+.search_box .searchbox .search_ip:focus-visible{
+    outline: none;
+}
+.btnsearch{
+    min-width: 48px;
+    height: 48px;
+    display: flex;
+    cursor: pointer;
+    border-bottom: #002f34;
+    background-color: #002f34;
+    border-radius: 0 4px 4px 0;
+    align-items: center;
+    font-size: 16px;
+}
+.btnsearch i{
+    font-size: 24px;
+    color: white;
+    padding-left: 10px;
+}
+
+
+.lang{
+    display: flex;
+}
+.english{
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.lang i{
+    font-size: 20px;
+}
+.login{
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 2px solid #002f34;
+    margin: 0 16px 0 16px;
+}
+.login:hover{
+    border-color: transparent;
+    cursor: pointer;
+}
+.sell_button button{
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #23e5db;
+    border-right-color: #3a77ff;
+    border-left-color: #ffce32;
+    border-bottom-color: #3a77ff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 22px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    color: #002f34;
+    
+}
+.sell_button i{
+    font-weight: 700;
+    padding-right: 1px;
+}
+
+
+
+
+.sub_header{
+    padding: 0 16px 0;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    margin: 0 0 4px;
+    z-index: 9;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    height: 44px; 
+    width: 100%;
+}
+
+.sub_bar{
+    width: 100%;
+}
+.list_item{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 3px;
+    cursor: pointer;
+    color: #002f34;
+    
+}
+.categories{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+.all_cate{
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.sub_icon{
+    text-align: center;
+    overflow: hidden;
+}
+.sub_btn {
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+}
+.sub_btn i{
+    font-size: 30px;
+}
+.list_cate{
+    display: flex;
+    align-items: center;
+    width: 81%;
+}
+.ca_it{
+    margin: 0 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+.main_area{
+    background-color: #fff;
+    padding-bottom: 0;
+    margin: 0;
+    z-index: -10;
+    position: relative  ;
+}
+.work_area{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.banner{
+    height: 135px;
+    margin: 0 0 40px;
+}
+.hero_bg{
+    top: 112px;
+    background-image: url("../image/hero_bg.png");
+    height: 135px;
+    overflow: hidden;
+}
+.banner .hero_bg{
+    background-size: 100% 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.banner .sell_btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 52%;
+}
+
+
+
+.main_object{
+    padding: 0 16px;
+}
+.main_titl{
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+.totalitems{
+    padding: 0;
+    margin: 0 -8px;
+    list-style: none;
+}
+.totalitems li{
+    height: 266px;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+.itembox{
+    position: relative;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 0;
+    text-align: left;
+}
+.itembox a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid rgba(14,4,5,.2);
+    overflow: hidden;
+    border-radius: 4px
+}
+.itembox a figure{
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.ite_img{
+    background-color: #fff;
+    position: relative;
+    height: 160px;
+    margin: 0;
+    overflow: hidden;
+}
+.figure{
+    margin: 1em 40px;
+}
+.ite_img img{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    display: block;
+    margin: auto;
+}
+.itembox adiv{
+    position: static;
+}
+.itembox a .list_op{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    padding: 8px 16px;
+}
+.itembox a .list_op .list_pro{
+    display: initial;
+}
+.itembox a .list_op .itemprice{
+    display: block;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    color: #002f34;
+    direction: ltr;
+    margin: 5px 0;
+    position: relative;
+    z-index: 2
+}
+.itembox a .list_op .itemtitle{
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    text-align: left;
+    display: block;
+    color: rgba(0,47,52,.64);
+    font-size: 14px;
+    margin: 5px 0;
+    position: relative;
+    z-index: 2
+    
+}
+.itemboxa .list_op .sub_op{
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: rgba(0,47,52,.64);
+    font-size: 10px;
+}
+
+
+
+.hrt_btn{
+    position: absolute;
+    z-index: 7;
+    top: 0;
+    right: 0;
+}
+.btn_hrt{
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    border-style: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+.hrt_btn img{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.work_area .btn_mr{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.btn_mr button{
+    border-radius: 4px;
+    color: #002f34;
+    border: 2px solid #002f34;
+    padding: 0 10px;
+    font-size: 16px;
+    height: 48px;
+    background: none;
+    font-weight: 700;
+}
+
+
+
+
+
+.bottom_img{
+    height: 198px;
+    margin-top: 85px;
+}
+.bottom_img .btm_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0,47,52,.03);
+}
+.bottom_img .btm_img .btm_wdth{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom_img .btm_img .btm_wdth .btm_pic img{
+    vertical-align: bottom;
+}
+.bottom_img .btm_img .btm_wdth .btm_wrd{
+    margin-left: 14px;
+}
+.bottom_img .btm_img .btm_wdth .btm_wrd .first_hd{
+    margin: 28px 0 16px;
+}
+.bold_hd{
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.bottom_img .btm_img .btm_wdth .btm_wrd .second_wrd{
+    max-width: 400px;
+}
+.smll_wrd{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.bottom_img .btm_img .btm_wdth .bar{
+    display: flex;
+    align-items: center;
+    width: 2px;
+    margin: 25px auto;
+    background-color: rgba(14, 4, 5, 0.2);
+    border: 0px solid rgba(14, 4, 5, 0.2);
+    height: 136px
+
+}
+.bottom_img .btm_img .btm_wdth .subscrib .msg{
+    margin-left: 29px;
+    margin-top: 57px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+.msg_img{
+    margin-left: 29px;
+}
+.msg_img img{
+    width: 128px;
+    margin-right: 8px;
+}
+.olx_app{
+    width: 100%;
+    min-height: 48px;
+}
+.olx_app .first_footer{
+    font-size: 14px;
+    line-height: 20px;
+    background: #ebeeef;
+    padding: 16px 0;
+}
+.list_place{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.olx_app .first_footer .lit_fo{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.olx_app .first_footer .lit_fo li{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+} 
+.olx_app .first_footer .lit_fo .logos{
+    margin: 5px 0;
+    font-size: 16px;
+    justify-content: space-between;
+}
+.logos .tw{
+    border: 1px solid #002f34;
+    border-radius: 50%;
+    padding: 2px 2px;
+    opacity: .5;
+}
+.fo_img img{
+    width: 92px;
+    margin-top: 10px;
+}
+.olx_app .second_footer{
+    font-size: 12px;
+    line-height: 18px;
+    background: #002f34;
+    padding: 15px 0;
+}
+.item_fo{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.item_fo p{
+    color: #fff;
+}
